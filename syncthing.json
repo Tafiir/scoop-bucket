@@ -3,13 +3,14 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/syncthing/syncthing/releases/download/v0.14.8/syncthing-windows-amd64-v0.14.8.zip",
-            "hash": "sha256:ce42757aca2de10af97ed8dda2029afd4970c92f5bb11a8ae8ff9a84948243f5"
+            "hash": "sha256:ce42757aca2de10af97ed8dda2029afd4970c92f5bb11a8ae8ff9a84948243f5",
+            "extract_dir": "syncthing-windows-amd64-v0.14.8"
         },
         "32bit": {
             "url": "https://github.com/syncthing/syncthing/releases/download/v0.14.8/syncthing-windows-386-v0.14.8.zip",
-            "hash": "sha256:ac0393630ce32678d0f5d6fd312bc5230cc8079089156713732cdba70808060a"
+            "hash": "sha256:ac0393630ce32678d0f5d6fd312bc5230cc8079089156713732cdba70808060a",
+            "extract_dir": "syncthing-windows-386-v0.14.8"
         }
     },
-    "extract_dir": "syncthing-windows-386-v0.14.8",
     "bin": "syncthing.exe"
 }
